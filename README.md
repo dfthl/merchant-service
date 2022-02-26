@@ -129,7 +129,7 @@ _Response:_ JSON
 
 <p>
 
-`PUT` `/delacc/:id`
+`DELETE` `/delacc/:id`
 
 Deleting merchant is using soft delete method. The Data actually still exist in database. If you want to delete the data, you should delete directly from your database application.
 
